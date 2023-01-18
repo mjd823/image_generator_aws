@@ -1,4 +1,6 @@
+dev_notes
 .env
 node_modules
 app.yaml
-*.zip
+serverless.yml
+.serverless
