@@ -22,16 +22,17 @@ function onSubmit(e) {
     try {
       showSpinner();
   
-      const response = await fetch('/openai/generateimage', {
+      const response = await fetch('/.netlify/functions/app', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
+            'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          prompt,
-          n: 3,  // specify that you want 3 images
+            prompt,
+            n: 3,  // specify that you want 3 images
         }),
-      });
+    });
+    
   
       if (!response.ok) {
         removeSpinner();
