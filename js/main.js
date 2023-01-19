@@ -69,7 +69,3 @@ function onSubmit(e) {
   
   
   document.querySelector('#image-form').addEventListener('submit', onSubmit);
-
-
-//`npm run dev` to start server -->
-//`CTR` + `C` to stop server -->
