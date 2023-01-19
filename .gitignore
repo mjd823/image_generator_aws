@@ -1,6 +1,6 @@
-dev_notes
 .env
 node_modules
-app.yaml
-serverless.yml
 .serverless
+serverless.yml
+/dev_notes
+
