@@ -21,6 +21,3 @@ module.exports.app = (event, context, callback) => {
     context.callbackWaitsForEmptyEventLoop = false;
     return handler(event, context, callback);
 };
-
-
-//test
