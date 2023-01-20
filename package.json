@@ -4,19 +4,41 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "dev": "nodemon index",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
+    "crypto-browserify": "^3.12.0",
+    "destroy": "^1.2.0",
     "express": "^4.18.2",
-    "openai": "^3.1.0"
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.0",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "on-finished": "^2.4.1",
+    "openai": "^3.1.0",
+    "os": "^0.1.2",
+    "path-browserify": "^1.0.1",
+    "raw-body": "^2.5.1",
+    "serverless-http": "^3.1.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0",
+    "util": "^0.12.5",
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "nodemon": "^2.0.20",
+    "webpack-cli": "^4.10.0"
   }
 }

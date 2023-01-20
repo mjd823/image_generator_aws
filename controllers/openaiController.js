@@ -37,22 +37,4 @@ const generateImage = async (req, res) => {
     }
 };
 
-const handler = (event, context, callback) => {
-    context.callbackWaitsForEmptyEventLoop = false;
-    generateImage(event, {
-        json: (data) => {
-            callback(null, {
-                statusCode: 200,
-                body: JSON.stringify(data),
-            });
-        },
-        status: (statusCode) => {
-            callback(null, {
-                statusCode,
-                body: '',
-            });
-        }
-    });
-};
-
-module.exports = { handler };
+module.exports = { generateImage };
