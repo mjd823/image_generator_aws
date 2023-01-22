@@ -19,5 +19,26 @@
         }
       }
     }
+  },
+  "ampconfig": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-imagegeneratoraws-ampconfig-172434-authRole",
+      "UnauthRoleArn": "arn:aws:iam::448694915852:role/amplify-imagegeneratoraws-ampconfig-172434-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::448694915852:role/amplify-imagegeneratoraws-ampconfig-172434-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-imagegeneratoraws-ampconfig-172434-deployment",
+      "UnauthRoleName": "amplify-imagegeneratoraws-ampconfig-172434-unauthRole",
+      "StackName": "amplify-imagegeneratoraws-ampconfig-172434",
+      "StackId": "arn:aws:cloudformation:us-east-2:448694915852:stack/amplify-imagegeneratoraws-ampconfig-172434/9a1edf20-9919-11ed-ae7a-0642c9241c6a",
+      "AmplifyAppId": "d1cyq317iuo5su"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1cyq317iuo5su",
+          "type": "manual"
+        }
+      }
+    }
   }
 }
