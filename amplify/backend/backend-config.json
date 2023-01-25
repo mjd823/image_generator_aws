@@ -31,6 +31,22 @@
     }
   },
   "parameters": {
+    "AMPLIFY_function_generateimagelamb_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "generateimagelamb"
+        }
+      ]
+    },
+    "AMPLIFY_function_generateimagelamb_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "generateimagelamb"
+        }
+      ]
+    },
     "AMPLIFY_hosting_amplifyhosting_appId": {
       "usedBy": [
         {
