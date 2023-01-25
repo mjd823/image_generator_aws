@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/openai/generateimage": {
+      "name": "/openai/generateimage",
+      "lambdaFunction": "generateimagelamb",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

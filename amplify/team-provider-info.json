@@ -38,6 +38,9 @@
           "appId": "d1cyq317iuo5su",
           "type": "manual"
         }
+      },
+      "function": {
+        "generateimagelamb": {}
       }
     }
   }
