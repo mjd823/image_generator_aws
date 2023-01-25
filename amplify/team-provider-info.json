@@ -42,7 +42,7 @@
       "function": {
         "generateimagelamb": {
           "deploymentBucketName": "amplify-imagegeneratoraws-ampconfig-172434-deployment",
-          "s3Key": "amplify-builds/generateimagelamb-726b42774d7871353963-build.zip"
+          "s3Key": "amplify-builds/generateimagelamb-614f765675444d736a4e-build.zip"
         }
       },
       "api": {
