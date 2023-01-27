@@ -41,12 +41,6 @@
       },
       "api": {
         "api17f026f1": {}
-      },
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d1cyq317iuo5su",
-          "type": "manual"
-        }
       }
     }
   }
