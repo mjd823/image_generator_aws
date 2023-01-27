@@ -21,39 +21,42 @@ function onSubmit(e) {
   async function generateImageRequest(prompt) {
     try {
       showSpinner();
-  
-      const response = await fetch('/openai/generateimage', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          prompt,
-          n: 3,  // specify that you want 3 images
-        }),
-      });
-  
+
+      const response = await fetch(
+        'https://vviyqx78tl.execute-api.us-east-2.amazonaws.com/ampconfig/openai/generateimage',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            prompt,
+            n: 3,  // specify that you want 3 images
+          }),
+        }
+      );
+
       if (!response.ok) {
         removeSpinner();
         throw new Error('That image could not be generated');
       }
-  
+
       const data = await response.json();
-  
+
       // data.data is an array of image URLs
       const imageUrls = data.data;
-  
+
       // img elements for each of them
       document.querySelector('#image1').src = imageUrls[0];
       document.querySelector('#image2').src = imageUrls[1];
       document.querySelector('#image3').src = imageUrls[2];
 
-  
       removeSpinner();
     } catch (error) {
       document.querySelector('.msg').textContent = error;
     }
   }
+
   
   
   function showSpinner() {
