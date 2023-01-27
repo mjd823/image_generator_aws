@@ -33,20 +33,20 @@
       "AmplifyAppId": "d1cyq317iuo5su"
     },
     "categories": {
+      "function": {
+        "generateimagelamb": {
+          "deploymentBucketName": "amplify-imagegeneratoraws-ampconfig-172434-deployment",
+          "s3Key": "amplify-builds/generateimagelamb-6862365957502f463453-build.zip"
+        }
+      },
+      "api": {
+        "api17f026f1": {}
+      },
       "hosting": {
         "amplifyhosting": {
           "appId": "d1cyq317iuo5su",
           "type": "manual"
         }
-      },
-      "function": {
-        "generateimagelamb": {
-          "deploymentBucketName": "amplify-imagegeneratoraws-ampconfig-172434-deployment",
-          "s3Key": "amplify-builds/generateimagelamb-41495479537a6a574965-build.zip"
-        }
-      },
-      "api": {
-        "api17f026f1": {}
       }
     }
   }
